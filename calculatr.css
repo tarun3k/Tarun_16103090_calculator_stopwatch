@@ -1,0 +1,115 @@
+
+html
+{
+	background-image:url(love.jpg);
+	background-size:180%;
+	background-repeat:no-repeat;
+}
+.container
+{
+	margin:150px 0 0 0;
+	text-align:center;
+}
+.button
+{
+	position:relative;
+	height:70px;
+	width:58px;
+	border:black;
+	
+	background:none;
+	font-size:25px;
+	margin:0px;
+	font-family:'Varela Round', sans-serif;
+	font-weight:lighter;
+	color:#000000;
+}
+.button:active
+{
+	background-color:#938a82;
+	transform:translate(3px);
+	opacity:.1;
+}
+.button:hover
+{
+    background-color: yellow;
+   color:#69797E;
+	
+}
+.keys{
+	
+	margin-top:-485px;
+	margin-right:67px;
+}
+.display input
+{
+	position:relative;
+	height:70px;
+	width:250px;
+	margin-top:px;
+	margin-right:px;
+	text-align:right;
+	font-size:30px;
+	top:82px;
+}
+.button1
+{   position:relative;
+	width:49px;
+	height:53px;
+	border:black;
+	background:none;
+	top:-500px;
+	font-size:25px;
+	margin:0px;
+	font-family:'Varela Round', sans-serif;
+	font-weight:lighter;
+	color:#000000;
+	text-align:center;
+	
+}
+
+.button1:active
+{
+	background-color:#938a82;
+	transform:translate(4px);
+	opacity:.1;
+} 
+.button1:hover
+{
+    background-color: yellow; color:#69797E;
+	
+}
+.button2
+{   position:relative;
+	width:49px;
+	height:71px;
+	border:black;
+	background:none;
+	top:-500px;
+	font-size:25px;
+	margin:0px;
+	font-family:'Varela Round', sans-serif;
+	font-weight:lighter;
+	color:#000000;
+	text-align:center;
+	
+}
+
+.button2:active
+{
+	background-color:#938a82;
+	transform:translate(4px);
+	opacity:.1;
+}
+.button2:hover
+{
+    background-color: yellow; color:#69797E;
+	
+}
+.keyst
+{  position:relative;
+ margin-top:172px;
+margin-left:167px;
+  
+	
+}

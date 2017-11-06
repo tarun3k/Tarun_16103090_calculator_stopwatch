@@ -1,0 +1,37 @@
+html
+{
+   background-color:black;
+
+ } 
+.watchs
+{  ;
+	margin-top:100px;
+	margin-right:2px;
+	opacity:10;
+	background-color:black;
+	
+}
+.stopwatch
+{
+	height:40px;
+	font-size:30px;
+	text-align:center;
+	background-color:black;
+	color:white;
+
+}
+#heading
+{
+	color:white;
+	
+	
+}
+.lap
+{
+	height:350px;
+	width:350px;
+	position:relative;
+	background-color:black;
+	color:white;
+    font-size:25px;
+}

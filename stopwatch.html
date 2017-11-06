@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html  >
+<head>
+  <title>stopwatch using javascript</title> 
+  <link rel="stylesheet" href="stopwatch.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src = "stopwatch.js"></script>
+
+</head>
+<body>
+<div class="watchs" align='center'  >
+	<h1 id="heading">STOPWATCH</h1>
+    <input class="stopwatch"id="stopwatch" type="text" value="00:00:00" readonly><br>
+	<input class="btn btn-success" id="startandstopbutton" type="button" value="Start/Stop" onClick="startandstop();">
+	<input class="btn btn-primary" id="marklapbutton" type="button" value="Split/Mark Lap" onClick="marklap();" >
+	<input class="btn btn-info" id="resetbutton" type="button" value="Reset Stopwatch" onClick="resetstopwatch();"><br>
+	<textarea size = ""class="lap" id="lapdetails" readonly></textarea>
+</div></body>
+</html>
